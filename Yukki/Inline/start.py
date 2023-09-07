@@ -93,7 +93,7 @@ def start_pannel():
            [
           InlineKeyboardButton(
                 text="🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂",
-                url="https://github.com/LOGI-LAB/music-video-bot"",
+                url="https://github.com/LOGI-LAB/music-video-bot",
             ),
         ],
           [
