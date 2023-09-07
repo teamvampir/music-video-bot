@@ -33,5 +33,5 @@ async def save_assistant(chat_id: int, name: str, note: dict):
     _notes = await _get_assistant(chat_id)
     _notes[name] = note
     await assisdb.update_one(
-        {"chat_id": chat_id}, {"$set": {"notes": _notes}}, upsert=True
+        {"chat_id": chat_id}, {"$set": {"notes":"hello"}}, upsert=True
     )
