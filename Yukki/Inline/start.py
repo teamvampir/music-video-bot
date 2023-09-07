@@ -218,7 +218,7 @@ def private_panel():
            [
           InlineKeyboardButton(
                 text="🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂",
-                url=f"https://t.me/cl_me_logesh,
+                url=f"https://t.me/cl_me_logesh",
             ),
         ],
           [
@@ -240,21 +240,21 @@ def private_panel():
             [
                 InlineKeyboardButton(
                     "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    url=f"https://t.me/botfather?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="🕊.⋆official channel༒۝꧂", url=f"{SUPPORT_CHANNEL}"
+                    text="🕊.⋆official channel༒۝꧂", url="https://github.com/LOGI-LAB/music-video-bot"
                 ),
                 InlineKeyboardButton(
-                    text="🕊.⋆official Group༒۝꧂", url=f"{SUPPORT_GROUP}"
+                    text="🕊.⋆official Group༒۝꧂", url="https://github.com/LOGI-LAB/music-video-bot"
                 ),
             ],
            [
           InlineKeyboardButton(
                 text="🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂",
-                url=f"https://t.me/{OWNER_USERNAME}",
+                 url="https://github.com/LOGI-LAB/music-video-bot",
             ),
         ],
           [
