@@ -27,11 +27,11 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 if str(getenv("SUPPORT_CHANNEL")).strip() == "":
-    SUPPORT_CHANNEL = None
+    SUPPORT_CHANNEL = "team_vampir"
 else:
     SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL"))
 if str(getenv("SUPPORT_GROUP")).strip() == "":
-    SUPPORT_GROUP = None
+    SUPPORT_GROUP = "Team_vampir"
 else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))
 
