@@ -1,5 +1,6 @@
 import random
 from typing import Dict, List, Union
+from Yukki.Core.Clients.cli import ASS_CLI_1
 
 from pyrogram import filters
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
@@ -41,7 +42,7 @@ def AssistantAdd(mystic):
     async def wrapper(_, message):
         _assistant = await get_assistant(message.chat.id, "assistant")
         if not _assistant:
-            ran_ass = random.choice(random_assistant)
+            ran_ass = ASS_CLI_1
             assis = {
                 "saveassistant": ran_ass,
             }
@@ -49,7 +50,7 @@ def AssistantAdd(mystic):
         else:
             ran_ass = _assistant["saveassistant"]
         if ran_ass not in random_assistant:
-            ran_ass = random.choice(random_assistant)
+            ran_ass = ASS_CLI_1
             assis = {
                 "saveassistant": ran_ass,
             }
