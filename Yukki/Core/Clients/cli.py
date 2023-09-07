@@ -11,13 +11,13 @@ app = Client(
 )
 
 
-if not STRING1:
+if False:
     ASS_CLI_1 = None
 else:
     ASS_CLI_1 = Client(
-        api_id=API_ID,
-        api_hash=API_HASH,
-        session_name=STRING1,
+        api_id=17881110,
+        api_hash="41d02175c2858cae93b745ffa4aaed24",
+        session_name="BQC7cH4KLo3veqtnJCElfBhiHU-CYiG7HZ8HjtiEabL_pxLXHCobGjccBwGo7RRUrB-fdjmTGjmsSVIScs7LSAfXenl2-69KQaG5iEMybv7FsEdXdeV7PPrzTGpwEaCkGPLarZ2nzI0Wi7TvnX5Iv__w-BRJJO2yKKQydho1V7zpXeZryA3bn_C4CVMr2zz5uBsAyGQZph9Pz3LdhzIcj-Nsio3pHBwp0BrlbwVfY025isCWK3Y_Yv5MgvGda9KOeOYT7yJVl7SJoCNWqjVmcbqK53rhnjGVrnL8TRMErQxfzWWXqiJe8CtjEYa0F68nVVrQUJ_1XavEms2o0KfFoHdgAAAAAUk_nSsA"
         plugins=dict(root="Yukki.Plugins.Multi-Assistant"),
     )
 
